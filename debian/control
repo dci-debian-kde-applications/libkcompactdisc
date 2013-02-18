@@ -1,0 +1,50 @@
+Source: libkcompactdisc
+Section: kde
+Priority: optional
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Pino Toscano <pino@kde.org>
+Build-Depends: kde-sc-dev-latest (>= 4:4.8.4),
+ cmake, debhelper (>= 7.3.16), pkg-kde-tools (>= 0.12),
+ kdelibs5-dev (>= 4:4.8), libphonon-dev (>= 4:4.6.0really4.3.80),
+ libasound2-dev [linux-any],
+Standards-Version: 3.9.3
+Homepage: http://www.kde.org/
+Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-sc/libkcompactdisc.git
+Vcs-Git: git://git.debian.org/pkg-kde/kde-sc/libkcompactdisc.git
+
+Package: libkcompactdisc4
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Breaks: libkcddb4 (<< 4:4.10)
+Replaces: libkcddb4 (<< 4:4.10)
+Description: CD drive library for KDE Platform (runtime)
+ The KDE Compact Disc library provides an API for applications using
+ the KDE Platform to interface with the CD drives for audio CDs.
+ .
+ This package is part of the KDE multimedia module.
+
+Package: libkcompactdisc-dev
+Section: libdevel
+Architecture: any
+Depends: ${misc:Depends}, libkcompactdisc4 (= ${binary:Version})
+Breaks: libkcddb-dev (<< 4:4.10)
+Replaces: libkcddb-dev (<< 4:4.10)
+Description: CD drive library for KDE Platform (development)
+ The KDE Compact Disc library provides an API for applications using
+ the KDE Platform to interface with the CD drives for audio CDs.
+ .
+ This package contains the development files for libKCompactDisc.
+ .
+ This package is part of the KDE multimedia module.
+
+Package: libkcompactdisc-dbg
+Section: debug
+Architecture: any
+Priority: extra
+Depends: ${misc:Depends}, libkcompactdisc4 (= ${binary:Version})
+Description: debugging symbols for libKCompactDisc
+ This package contains debugging files used to investigate problems with
+ the libKCompactDisc library.
+ .
+ This package is part of the KDE multimedia module.
