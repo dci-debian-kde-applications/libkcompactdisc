@@ -43,6 +43,8 @@ Section: debug
 Architecture: any
 Priority: extra
 Depends: ${misc:Depends}, libkcompactdisc4 (= ${binary:Version})
+Breaks: kdemultimedia-dbg
+Replaces: kdemultimedia-dbg
 Description: debugging symbols for libKCompactDisc
  This package contains debugging files used to investigate problems with
  the libKCompactDisc library.
