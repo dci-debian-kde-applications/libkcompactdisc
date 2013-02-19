@@ -32,7 +32,7 @@ Copyright: 1991-1997, Steven Grimm <koreth@midwinter.com>
 License: GPL-2+
 
 Files: debian/*
-Copyright: 2013, Pino Toscano <pino@kde.org>
+Copyright: 2013, Pino Toscano <pino@debian.org>
 License: GPL-2+
 
 License: GPL-2+
@@ -53,9 +53,8 @@ License: GPL-2+
  Software Foundation, Inc., 51 Franklin St, Fifth Floor,
  Boston, MA  02110-1301 USA
  .
- On Debian systems, the full text of the GNU General Public
- License version 2 can be found in the file
- `/usr/share/common-licenses/GPL-2'.
+ On Debian systems, the full text of the GNU General Public License
+ version 2 can be found in the file `/usr/share/common-licenses/GPL-2'.
 
 License: LGPL-2
  This library is free software; you can redistribute it and/or
