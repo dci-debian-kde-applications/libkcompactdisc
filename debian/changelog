@@ -1,4 +1,4 @@
-libkcompactdisc (4:4.10.0-0r1) UNRELEASED; urgency=low
+libkcompactdisc (4:4.10.2-0r1) UNRELEASED; urgency=low
 
   [ Pino Toscano ]
   * Initial packaging.
