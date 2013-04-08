@@ -1,2 +1,3 @@
 fix_target_link_libraries.diff
 upstream_disable-wmlib-on-GNU-Hurd.patch
+kfreebsd_extra_include.diff
