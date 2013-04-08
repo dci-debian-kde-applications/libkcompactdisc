@@ -3,6 +3,7 @@ libkcompactdisc (4:4.10.2-2) UNRELEASED; urgency=low
   [ Pino Toscano ]
   * Backport upstream commit 4d7f2c572dec110ea71eae95f203e057cb4e41e3 to
     disable wmlib on GNU/Hurd.
+  * Update the symbols file for GNU/kFreeBSD and GNU/Hurd.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 08 Apr 2013 18:47:10 +0200
 
