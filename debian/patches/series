@@ -1,1 +1,2 @@
 fix_target_link_libraries.diff
+upstream_disable-wmlib-on-GNU-Hurd.patch
