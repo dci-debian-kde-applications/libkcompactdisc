@@ -1,5 +1,9 @@
 libkcompactdisc (4:4.10.2-3) UNRELEASED; urgency=low
 
+  [ Pino Toscano ]
+  * Instead of just removing the sys/mount.h include from plat_freebsd.c,
+    replace it with sys/statfs.h; replace patch kfreebsd_extra_include.diff
+    with kfreebsd_include.diff.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 09 Apr 2013 10:27:24 +0200
 
