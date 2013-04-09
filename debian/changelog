@@ -1,3 +1,8 @@
+libkcompactdisc (4:4.10.2-3) UNRELEASED; urgency=low
+
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 09 Apr 2013 10:27:24 +0200
+
 libkcompactdisc (4:4.10.2-2) experimental; urgency=low
 
   [ Pino Toscano ]
