@@ -1,3 +1,2 @@
-upstream_cmake-link-to-pthread-when-wmlib-is-used.patch
 upstream_disable-wmlib-on-GNU-Hurd.patch
 kfreebsd_include.diff
