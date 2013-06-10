@@ -4,6 +4,7 @@ libkcompactdisc (4:4.10.4-1) UNRELEASED; urgency=low
   * Remove upstream_cmake-link-to-pthread-when-wmlib-is-used.patch, applied by
     upstream.
   * Bump debhelper build-dep and compat to 9.
+  * Bump Standards-Version to 3.9.4.
 
  -- Maximiliano Curia <maxy@debian.org>  Mon, 10 Jun 2013 11:37:38 +0200
 
