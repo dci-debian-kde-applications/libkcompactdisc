@@ -1,4 +1,4 @@
-libkcompactdisc (4:4.10.4-1) UNRELEASED; urgency=low
+libkcompactdisc (4:4.10.4-1) experimental; urgency=low
 
   * New upstream release.
   * Remove upstream_cmake-link-to-pthread-when-wmlib-is-used.patch, applied by
@@ -8,7 +8,7 @@ libkcompactdisc (4:4.10.4-1) UNRELEASED; urgency=low
   * Update vcs fields.
   * Add myself to uploaders.
 
- -- Maximiliano Curia <maxy@debian.org>  Mon, 10 Jun 2013 11:37:38 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 14 Jun 2013 08:26:13 +0200
 
 libkcompactdisc (4:4.10.2-3) experimental; urgency=low
 
