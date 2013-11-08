@@ -1,9 +1,9 @@
-libkcompactdisc (4:4.11.3-1) UNRELEASED; urgency=low
+libkcompactdisc (4:4.11.3-1) unstable; urgency=low
 
   * New upstream release.
   * Update build dependencies.
 
- -- Maximiliano Curia <maxy@debian.org>  Fri, 08 Nov 2013 11:28:55 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 08 Nov 2013 12:17:22 +0100
 
 libkcompactdisc (4:4.11.2-1) experimental; urgency=low
 
