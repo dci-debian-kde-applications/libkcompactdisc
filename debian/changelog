@@ -1,6 +1,7 @@
 libkcompactdisc (4:4.11.4-1) UNRELEASED; urgency=low
 
   * New upstream release.
+  * Enable build failures on missing symbols.
 
  -- Maximiliano Curia <maxy@debian.org>  Fri, 06 Dec 2013 16:06:21 +0100
 
