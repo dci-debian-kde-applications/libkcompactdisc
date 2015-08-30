@@ -1,9 +1,12 @@
-libkcompactdisc (4:15.04.3-1~) UNRELEASED; urgency=medium
+libkcompactdisc (4:15.04.3-1) unstable; urgency=medium
 
+  [ Jeremy Lainé ]
   * New upstream release (15.04.3).
   * Bump Standards-Version to 3.9.6, no changes needed.
 
- -- Jeremy Lainé <jeremy.laine@m4x.org>  Tue, 28 Jul 2015 19:00:41 +0200
+  [ Maximiliano Curia ]
+
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 30 Aug 2015 19:48:49 +0200
 
 libkcompactdisc (4:4.12.3-2) unstable; urgency=medium
 
