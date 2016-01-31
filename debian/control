@@ -42,16 +42,3 @@ Description: CD drive library for KDE Platform (development)
  This package contains the development files for libKCompactDisc.
  .
  This package is part of the KDE multimedia module.
-
-Package: libkcompactdisc-dbg
-Section: debug
-Architecture: any
-Priority: extra
-Depends: libkcompactdisc4 (= ${binary:Version}), ${misc:Depends}
-Breaks: kdemultimedia-dbg
-Replaces: kdemultimedia-dbg
-Description: debugging symbols for libKCompactDisc
- This package contains debugging files used to investigate problems with
- the libKCompactDisc library.
- .
- This package is part of the KDE multimedia module.
