@@ -1,3 +1,16 @@
+libkcompactdisc (4:15.12.1-0ubuntu1) UNRELEASED; urgency=medium
+
+  * Debian merge: No remaining changes.
+  * New upstream release. 
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Thu, 11 Feb 2016 21:13:30 -0800
+
+libkcompactdisc (4:15.12.0-1) experimental; urgency=medium
+
+  * New upstream release (15.12.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 01 Feb 2016 10:23:29 +0100
+
 libkcompactdisc (4:15.12.0-0ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream release
@@ -27,6 +40,16 @@ libkcompactdisc (4:15.07.90-0ubuntu1) wily; urgency=medium
   * new upstream beta release
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 18 Aug 2015 11:22:45 +0100
+
+libkcompactdisc (4:15.04.3-1) unstable; urgency=medium
+
+  [ Jeremy Lainé ]
+  * New upstream release (15.04.3).
+  * Bump Standards-Version to 3.9.6, no changes needed.
+
+  [ Maximiliano Curia ]
+
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 30 Aug 2015 19:48:49 +0200
 
 libkcompactdisc (4:15.04.2-0ubuntu1) wily; urgency=medium
 
