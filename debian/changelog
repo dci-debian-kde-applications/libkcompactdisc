@@ -1,9 +1,9 @@
-libkcompactdisc (4:15.12.1-0ubuntu1) UNRELEASED; urgency=medium
+libkcompactdisc (4:15.12.1-0ubuntu1) xenial; urgency=medium
 
   * Debian merge: No remaining changes.
   * New upstream release. 
 
- -- Scarlett Clark <sgclark@kubuntu.org>  Thu, 11 Feb 2016 21:13:30 -0800
+ -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 09 Mar 2016 11:25:47 +0100
 
 libkcompactdisc (4:15.12.0-1) experimental; urgency=medium
 
