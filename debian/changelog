@@ -1,12 +1,13 @@
-libkcompactdisc (4:15.12.0-2~2.gbpa275b1) UNRELEASED; urgency=medium
+libkcompactdisc (4:15.12.0-2~3.gbpf7b772) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @a275b1c09442a729384e336ee2a4af43131ead57 **
+  ** SNAPSHOT build @f7b772dcc318e6eafbf1078fa3a0f93dddc04b59 **
 
   * Bump Standards-Version to 3.9.8
   * Update symbols files from buildds logs (4:15.12.0-1).
   * Update symbols files.
+  * Update symbols files.
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 14 Apr 2016 09:29:43 +0200
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 14 Apr 2016 10:38:59 +0200
 
 libkcompactdisc (4:15.12.0-1) experimental; urgency=medium
 
