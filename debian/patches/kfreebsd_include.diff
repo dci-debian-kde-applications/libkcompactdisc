@@ -1,13 +1,13 @@
-Author: Pino Toscano <toscano.pino@tiscali.it>
-Description: Replace sys/mount.h include with sys/statfs.h on GNU/kFreeBSD.
- Due to Debian #704598, GNU/kFreeBSD' sys/mount.h cannot be used in
- C90 C sources, such as plat_freebsd.c when compiled with default CFLAGS
- provided with kdelibs.
- When using GNU libc, use sys/statfs.h instead of sys/mount.h; the former
- should provide fstatfs.
-Forwarded: no
-Last-Update: 2014-04-09
+From: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Date: Thu, 21 Apr 2016 01:33:13 +0200
+Subject: kfreebsd_include
 
+---
+ wmlib/plat_freebsd.c | 6 +++++-
+ 1 file changed, 5 insertions(+), 1 deletion(-)
+
+diff --git a/wmlib/plat_freebsd.c b/wmlib/plat_freebsd.c
+index 7cc31e6..a31ba0e 100644
 --- a/wmlib/plat_freebsd.c
 +++ b/wmlib/plat_freebsd.c
 @@ -36,7 +36,11 @@
