@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.7.4 amd64
+# SymbolsHelper-Confirmed: 4:15.12.0 amd64 armhf hppa i386 sparc64 x32
 libkcompactdisc.so.4 libkcompactdisc4 #MINVER#
  _ZN12KCompactDisc10deviceNameEv@Base 4:4.3.4
  _ZN12KCompactDisc10discArtistEv@Base 4:4.3.4
@@ -69,10 +69,136 @@ libkcompactdisc.so.4 libkcompactdisc4 #MINVER#
  _ZN12KCompactDiscD0Ev@Base 4:4.3.4
  _ZN12KCompactDiscD1Ev@Base 4:4.3.4
  _ZN12KCompactDiscD2Ev@Base 4:4.3.4
+ (arch=!amd64 !armhf !i386)_ZN14ProducerWidgetC1EP25KPhononCompactDiscPrivateRK7QString@Base 4:15.12.0
+ (arch=!amd64 !armhf !i386)_ZN14ProducerWidgetC2EP25KPhononCompactDiscPrivateRK7QString@Base 4:15.12.0
+ (arch=!amd64 !armhf !i386)_ZN14ProducerWidgetD0Ev@Base 4:15.12.0
+ (arch=!amd64 !armhf !i386)_ZN14ProducerWidgetD1Ev@Base 4:15.12.0
+ (arch=!amd64 !armhf !i386)_ZN14ProducerWidgetD2Ev@Base 4:15.12.0
+ (arch=!amd64 !armhf !i386)_ZN19KCompactDiscPrivate10setBalanceEj@Base 4:15.12.0
+ (arch=!amd64 !armhf !i386)_ZN19KCompactDiscPrivate11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:15.12.0
+ (arch=!amd64 !armhf !i386)_ZN19KCompactDiscPrivate11qt_metacastEPKc@Base 4:15.12.0
+ (arch=!amd64 !armhf !i386)_ZN19KCompactDiscPrivate11trackLengthEj@Base 4:15.12.0
+ (arch=!amd64 !armhf !i386)_ZN19KCompactDiscPrivate12isTrackAudioEj@Base 4:15.12.0
+ (arch=!amd64 !armhf !i386)_ZN19KCompactDiscPrivate13clearDiscInfoEv@Base 4:15.12.0
+ (arch=!amd64 !armhf !i386)_ZN19KCompactDiscPrivate13make_playlistEv@Base 4:15.12.0
+ (arch=!amd64 !armhf !i386)_ZN19KCompactDiscPrivate13moveInterfaceERK7QStringS2_S2_@Base 4:15.12.0
+ (arch=!amd64 !armhf !i386)_ZN19KCompactDiscPrivate13queryMetadataEv@Base 4:15.12.0
+ (arch=!amd64 !armhf !i386)_ZN19KCompactDiscPrivate14discStatusI18nEN12KCompactDisc10DiscStatusE@Base 4:15.12.0
+ (arch=!amd64 !armhf !i386)_ZN19KCompactDiscPrivate15createInterfaceEv@Base 4:15.12.0
+ (arch=!amd64 !armhf !i386)_ZN19KCompactDiscPrivate16skipStatusChangeEN12KCompactDisc10DiscStatusE@Base 4:15.12.0
+ (arch=!amd64 !armhf !i386)_ZN19KCompactDiscPrivate16staticMetaObjectE@Base 4:15.12.0
+ (arch=!amd64 !armhf !i386)_ZN19KCompactDiscPrivate17playTrackPositionEjj@Base 4:15.12.0
+ (arch=!amd64 !armhf !i386)_ZN19KCompactDiscPrivate22getNextTrackInPlaylistEv@Base 4:15.12.0
+ (arch=!amd64 !armhf !i386)_ZN19KCompactDiscPrivate22getPrevTrackInPlaylistEv@Base 4:15.12.0
+ (arch=!amd64 !armhf !i386)_ZN19KCompactDiscPrivate4stopEv@Base 4:15.12.0
+ (arch=!amd64 !armhf !i386)_ZN19KCompactDiscPrivate5ejectEv@Base 4:15.12.0
+ (arch=!amd64 !armhf !i386)_ZN19KCompactDiscPrivate5pauseEv@Base 4:15.12.0
+ (arch=!amd64 !armhf !i386)_ZN19KCompactDiscPrivate6volumeEv@Base 4:15.12.0
+ (arch=!amd64 !armhf !i386)_ZN19KCompactDiscPrivate7balanceEv@Base 4:15.12.0
+ (arch=!amd64 !armhf !i386)_ZN19KCompactDiscPrivate9closetrayEv@Base 4:15.12.0
+ (arch=!amd64 !armhf !i386)_ZN19KCompactDiscPrivate9setVolumeEj@Base 4:15.12.0
+ (arch=!amd64 !armhf !i386)_ZN19KCompactDiscPrivateC1EP12KCompactDiscRK7QString@Base 4:15.12.0
+ (arch=!amd64 !armhf !i386)_ZN19KCompactDiscPrivateC2EP12KCompactDiscRK7QString@Base 4:15.12.0
+ (arch=!amd64 !armhf !i386)_ZN19KCompactDiscPrivateD0Ev@Base 4:15.12.0
+ (arch=!amd64 !armhf !i386)_ZN19KCompactDiscPrivateD1Ev@Base 4:15.12.0
+ (arch=!amd64 !armhf !i386)_ZN19KCompactDiscPrivateD2Ev@Base 4:15.12.0
+ (arch=!amd64 !armhf !i386)_ZN24KWMLibCompactDiscPrivate10setBalanceEj@Base 4:15.12.0
+ (arch=!amd64 !armhf !i386)_ZN24KWMLibCompactDiscPrivate11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:15.12.0
+ (arch=!amd64 !armhf !i386)_ZN24KWMLibCompactDiscPrivate11qt_metacastEPKc@Base 4:15.12.0
+ (arch=!amd64 !armhf !i386)_ZN24KWMLibCompactDiscPrivate11trackLengthEj@Base 4:15.12.0
+ (arch=!amd64 !armhf !i386)_ZN24KWMLibCompactDiscPrivate12isTrackAudioEj@Base 4:15.12.0
+ (arch=!amd64 !armhf !i386)_ZN24KWMLibCompactDiscPrivate12timerExpiredEv@Base 4:15.12.0
+ (arch=!amd64 !armhf !i386)_ZN24KWMLibCompactDiscPrivate13queryMetadataEv@Base 4:15.12.0
+ (arch=!amd64 !armhf !i386)_ZN24KWMLibCompactDiscPrivate15createInterfaceEv@Base 4:15.12.0
+ (arch=!amd64 !armhf !i386)_ZN24KWMLibCompactDiscPrivate16staticMetaObjectE@Base 4:15.12.0
+ (arch=!amd64 !armhf !i386)_ZN24KWMLibCompactDiscPrivate17playTrackPositionEjj@Base 4:15.12.0
+ (arch=!amd64 !armhf !i386)_ZN24KWMLibCompactDiscPrivate19discStatusTranslateEi@Base 4:15.12.0
+ (arch=!amd64 !armhf !i386)_ZN24KWMLibCompactDiscPrivate4stopEv@Base 4:15.12.0
+ (arch=!amd64 !armhf !i386)_ZN24KWMLibCompactDiscPrivate5ejectEv@Base 4:15.12.0
+ (arch=!amd64 !armhf !i386)_ZN24KWMLibCompactDiscPrivate5pauseEv@Base 4:15.12.0
+ (arch=!amd64 !armhf !i386)_ZN24KWMLibCompactDiscPrivate6cdtextEv@Base 4:15.12.0
+ (arch=!amd64 !armhf !i386)_ZN24KWMLibCompactDiscPrivate6volumeEv@Base 4:15.12.0
+ (arch=!amd64 !armhf !i386)_ZN24KWMLibCompactDiscPrivate7balanceEv@Base 4:15.12.0
+ (arch=!amd64 !armhf !i386)_ZN24KWMLibCompactDiscPrivate9closetrayEv@Base 4:15.12.0
+ (arch=!amd64 !armhf !i386)_ZN24KWMLibCompactDiscPrivate9setVolumeEj@Base 4:15.12.0
+ (arch=!amd64 !armhf !i386)_ZN24KWMLibCompactDiscPrivateC1EP12KCompactDiscRK7QStringS4_S4_@Base 4:15.12.0
+ (arch=!amd64 !armhf !i386)_ZN24KWMLibCompactDiscPrivateC2EP12KCompactDiscRK7QStringS4_S4_@Base 4:15.12.0
+ (arch=!amd64 !armhf !i386)_ZN24KWMLibCompactDiscPrivateD0Ev@Base 4:15.12.0
+ (arch=!amd64 !armhf !i386)_ZN24KWMLibCompactDiscPrivateD1Ev@Base 4:15.12.0
+ (arch=!amd64 !armhf !i386)_ZN24KWMLibCompactDiscPrivateD2Ev@Base 4:15.12.0
+ (arch=!amd64 !armhf !i386)_ZN25KPhononCompactDiscPrivate10setBalanceEj@Base 4:15.12.0
+ (arch=!amd64 !armhf !i386)_ZN25KPhononCompactDiscPrivate11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:15.12.0
+ (arch=!amd64 !armhf !i386)_ZN25KPhononCompactDiscPrivate11qt_metacastEPKc@Base 4:15.12.0
+ (arch=!amd64 !armhf !i386)_ZN25KPhononCompactDiscPrivate11trackLengthEj@Base 4:15.12.0
+ (arch=!amd64 !armhf !i386)_ZN25KPhononCompactDiscPrivate12isTrackAudioEj@Base 4:15.12.0
+ (arch=!amd64 !armhf !i386)_ZN25KPhononCompactDiscPrivate12stateChangedEN6Phonon5StateES1_@Base 4:15.12.0
+ (arch=!amd64 !armhf !i386)_ZN25KPhononCompactDiscPrivate13queryMetadataEv@Base 4:15.12.0
+ (arch=!amd64 !armhf !i386)_ZN25KPhononCompactDiscPrivate15createInterfaceEv@Base 4:15.12.0
+ (arch=!amd64 !armhf !i386)_ZN25KPhononCompactDiscPrivate16staticMetaObjectE@Base 4:15.12.0
+ (arch=!amd64 !armhf !i386)_ZN25KPhononCompactDiscPrivate17playTrackPositionEjj@Base 4:15.12.0
+ (arch=!amd64 !armhf !i386)_ZN25KPhononCompactDiscPrivate19discStatusTranslateEN6Phonon5StateE@Base 4:15.12.0
+ (arch=!amd64 !armhf !i386)_ZN25KPhononCompactDiscPrivate4stopEv@Base 4:15.12.0
+ (arch=!amd64 !armhf !i386)_ZN25KPhononCompactDiscPrivate4tickEx@Base 4:15.12.0
+ (arch=!amd64 !armhf !i386)_ZN25KPhononCompactDiscPrivate5ejectEv@Base 4:15.12.0
+ (arch=!amd64 !armhf !i386)_ZN25KPhononCompactDiscPrivate5pauseEv@Base 4:15.12.0
+ (arch=!amd64 !armhf !i386)_ZN25KPhononCompactDiscPrivate6volumeEv@Base 4:15.12.0
+ (arch=!amd64 !armhf !i386)_ZN25KPhononCompactDiscPrivate7balanceEv@Base 4:15.12.0
+ (arch=!amd64 !armhf !i386)_ZN25KPhononCompactDiscPrivate8producerEv@Base 4:15.12.0
+ (arch=!amd64 !armhf !i386)_ZN25KPhononCompactDiscPrivate9closetrayEv@Base 4:15.12.0
+ (arch=!amd64 !armhf !i386)_ZN25KPhononCompactDiscPrivate9setVolumeEj@Base 4:15.12.0
+ (arch=!amd64 !armhf !i386)_ZN25KPhononCompactDiscPrivateC1EP12KCompactDiscRK7QString@Base 4:15.12.0
+ (arch=!amd64 !armhf !i386)_ZN25KPhononCompactDiscPrivateC2EP12KCompactDiscRK7QString@Base 4:15.12.0
+ (arch=!amd64 !armhf !i386)_ZN25KPhononCompactDiscPrivateD0Ev@Base 4:15.12.0
+ (arch=!amd64 !armhf !i386)_ZN25KPhononCompactDiscPrivateD1Ev@Base 4:15.12.0
+ (arch=!amd64 !armhf !i386)_ZN25KPhononCompactDiscPrivateD2Ev@Base 4:15.12.0
+ (optional=templinst|arch=!amd64 !armhf !i386)_ZN4QMapI7QString4KUrlE13detach_helperEv@Base 4:15.12.0
+ (optional=templinst|arch=!amd64 !armhf !i386)_ZN4QMapI7QString4KUrlED1Ev@Base 4:15.12.0
+ (optional=templinst|arch=!amd64 !armhf !i386)_ZN4QMapI7QString4KUrlED2Ev@Base 4:15.12.0
+ (optional=templinst|arch=!amd64 !armhf !i386)_ZN4QMapI7QStringS0_E13detach_helperEv@Base 4:15.12.0
+ (optional=templinst|arch=!amd64 !armhf !i386)_ZN4QMapI7QStringS0_E4takeERKS0_@Base 4:15.12.0
+ (optional=templinst|arch=!amd64 !armhf !i386)_ZN4QMapI7QStringS0_ED1Ev@Base 4:15.12.0
+ (optional=templinst|arch=!amd64 !armhf !i386)_ZN4QMapI7QStringS0_ED2Ev@Base 4:15.12.0
+ (optional=templinst|arch=!amd64 !armhf !i386)_ZN5QListI4KUrlE18detach_helper_growEii@Base 4:15.12.0
+ (optional=templinst|arch=!amd64 !armhf !i386)_ZN5QListI7QStringE13detach_helperEi@Base 4:15.12.0
+ (optional=templinst|arch=!amd64 !armhf !i386)_ZN5QListI7QStringE18detach_helper_growEii@Base 4:15.12.0
+ (optional=templinst|arch=!amd64 !armhf !i386)_ZN5QListI7QStringE5clearEv@Base 4:15.12.0
+ (optional=templinst|arch=!amd64 !armhf !i386)_ZN5QListI7QStringE6appendERKS0_@Base 4:15.12.0
+ (optional=templinst|arch=!amd64 !armhf !i386)_ZN5QListI7QStringE7reserveEi@Base 4:15.12.0
+ (optional=templinst|arch=!amd64 !armhf !i386 !x32)_ZN5QListI7QStringED1Ev@Base 4:15.12.0
+ (optional=templinst|arch=!amd64 !armhf !i386 !x32)_ZN5QListI7QStringED2Ev@Base 4:15.12.0
+ (optional=templinst|arch=!amd64 !armhf !i386 !x32)_ZN5QListIN5Solid6DeviceEE13detach_helperEi@Base 4:15.12.0
+ (optional=templinst|arch=!amd64 !armhf !i386 !x32)_ZN5QListIN5Solid6DeviceEED1Ev@Base 4:15.12.0
+ (optional=templinst|arch=!amd64 !armhf !i386 !x32)_ZN5QListIN5Solid6DeviceEED2Ev@Base 4:15.12.0
+ (optional=templinst|arch=!amd64 !armhf !i386)_ZN5QListIjE13detach_helperEi@Base 4:15.12.0
+ (optional=templinst|arch=!amd64 !armhf !i386)_ZN5QListIjE18detach_helper_growEii@Base 4:15.12.0
+ (optional=templinst|arch=!amd64 !armhf !i386)_ZN5QListIjE5clearEv@Base 4:15.12.0
+ (optional=templinst|arch=!amd64 !armhf !i386)_ZN5QListIjE6appendERKj@Base 4:15.12.0
+ (optional=templinst|arch=!amd64 !armhf !i386 !x32)_ZN5QListIjED1Ev@Base 4:15.12.0
+ (optional=templinst|arch=!amd64 !armhf !i386 !x32)_ZN5QListIjED2Ev@Base 4:15.12.0
+ (arch=!amd64 !armhf !i386)_ZN7QStringD1Ev@Base 4:15.12.0
+ (arch=!amd64 !armhf !i386)_ZN7QStringD2Ev@Base 4:15.12.0
  _ZNK12KCompactDisc10metaObjectEv@Base 4:4.3.4
+ (arch=!amd64 !armhf !i386)_ZNK19KCompactDiscPrivate10metaObjectEv@Base 4:15.12.0
+ (arch=!amd64 !armhf !i386)_ZNK24KWMLibCompactDiscPrivate10metaObjectEv@Base 4:15.12.0
+ (arch=!amd64 !armhf !i386)_ZNK25KPhononCompactDiscPrivate10metaObjectEv@Base 4:15.12.0
+ (optional=templinst|arch=!amd64 !armhf !i386)_ZNK4QMapI7QString4KUrlE4keysEv@Base 4:15.12.0
+ (optional=templinst|arch=!amd64 !armhf !i386)_ZNK4QMapI7QString4KUrlE6valuesEv@Base 4:15.12.0
+ (optional=templinst|arch=!amd64 !armhf !i386)_ZNK5QListIjE7indexOfERKji@Base 4:15.12.0
  _ZTI12KCompactDisc@Base 4:4.3.4
+ (arch=!amd64 !armhf !i386)_ZTI14ProducerWidget@Base 4:15.12.0
+ (arch=!amd64 !armhf !i386)_ZTI19KCompactDiscPrivate@Base 4:15.12.0
+ (arch=!amd64 !armhf !i386)_ZTI24KWMLibCompactDiscPrivate@Base 4:15.12.0
+ (arch=!amd64 !armhf !i386)_ZTI25KPhononCompactDiscPrivate@Base 4:15.12.0
  _ZTS12KCompactDisc@Base 4:4.3.4
+ (arch=!amd64 !armhf !i386)_ZTS14ProducerWidget@Base 4:15.12.0
+ (arch=!amd64 !armhf !i386)_ZTS19KCompactDiscPrivate@Base 4:15.12.0
+ (arch=!amd64 !armhf !i386)_ZTS24KWMLibCompactDiscPrivate@Base 4:15.12.0
+ (arch=!amd64 !armhf !i386)_ZTS25KPhononCompactDiscPrivate@Base 4:15.12.0
  _ZTV12KCompactDisc@Base 4:4.3.4
+ (arch=!amd64 !armhf !i386)_ZTV14ProducerWidget@Base 4:15.12.0
+ (arch=!amd64 !armhf !i386)_ZTV19KCompactDiscPrivate@Base 4:15.12.0
+ (arch=!amd64 !armhf !i386)_ZTV24KWMLibCompactDiscPrivate@Base 4:15.12.0
+ (arch=!amd64 !armhf !i386)_ZTV25KPhononCompactDiscPrivate@Base 4:15.12.0
  (arch=linux-any)alsa_close@Base 4:4.3.4
  (arch=linux-any)alsa_open@Base 4:4.3.4
  (arch=linux-any)alsa_play@Base 4:4.3.4

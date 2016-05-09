@@ -12,7 +12,7 @@ Build-Depends: cmake,
                libasound2-dev [linux-any],
                libphonon-dev (>= 4:4.6.0really4.3.80),
                pkg-kde-tools (>= 0.12)
-Standards-Version: 3.9.6
+Standards-Version: 3.9.8
 Homepage: http://www.kde.org/
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/applications/libkcompactdisc.git
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/libkcompactdisc.git
