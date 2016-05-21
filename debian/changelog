@@ -1,13 +1,8 @@
-libkcompactdisc (4:16.04.0-1~2.gbpb09ac3) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @b09ac3f3cd5c35256ef49f38bf89626ee0885bad **
+libkcompactdisc (4:16.04.0-1) unstable; urgency=medium
 
   [ Automatic packaging ]
-  ** SNAPSHOT build @7a9da04e7ca2d823195d1233dea85d904cc6e3c6 **
-
   * Bump Standards-Version to 3.9.8
   * Update symbols files from buildds logs (4:15.12.0-1).
-  * Update symbols files.
   * Update symbols files.
   * Refresh patches
 
@@ -16,7 +11,7 @@ libkcompactdisc (4:16.04.0-1~2.gbpb09ac3) UNRELEASED; urgency=medium
   * Add upstream metadata (DEP-12)
   * debian/control: Update Vcs-Browser and Vcs-Git fields
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Mon, 09 May 2016 11:33:18 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 21 May 2016 23:46:32 +0200
 
 libkcompactdisc (4:15.12.0-1) experimental; urgency=medium
 
