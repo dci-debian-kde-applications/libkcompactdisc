@@ -1,4 +1,0 @@
-Tests: testsuite
-Depends: @, @builddeps@, build-essential,
-         dbus-x11
-Restrictions: build-needed
