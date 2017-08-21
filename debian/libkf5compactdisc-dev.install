@@ -1,0 +1,5 @@
+usr/include/KF5/KCompactDisc/
+usr/include/KF5/kcompactdisc_version.h
+usr/lib/*/cmake/KF5CompactDisc/
+usr/lib/*/libKF5CompactDisc.so
+usr/lib/*/qt5/mkspecs/modules/qt_KCompactDisc.pri
