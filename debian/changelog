@@ -1,8 +1,12 @@
-libkcompactdisc (4:17.08.0-1~) UNRELEASED; urgency=medium
+libkcompactdisc (4:17.08.1-1~) UNRELEASED; urgency=medium
 
   * New upstream release (17.08.0)
+  * Bump Standards-Version to 4.0.1.
+  * Update upstream metadata
+  * Update build-deps and deps with the info from cmake
+  * New upstream release (17.08.1).
 
- -- Maximiliano Curia <maxy@debian.org>  Mon, 21 Aug 2017 12:22:31 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 11 Sep 2017 17:36:35 +0200
 
 libkcompactdisc (4:17.08.0-0neon) xenial; urgency=medium
 
