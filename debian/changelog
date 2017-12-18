@@ -12,6 +12,7 @@ libkcompactdisc (4:17.08.3-0r1) UNRELEASED; urgency=medium
   * Simplify watch file, and switch it to https.
   * Remove unneeded libkf5kdelibs4support-dev build dependency.
   * Add needed dependencies for libkf5compactdisc-dev.
+  * Remove extra kde-l10n breaks/replaces, already included in ${kde-l10n:all}.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 11 Sep 2017 17:38:32 +0200
 
