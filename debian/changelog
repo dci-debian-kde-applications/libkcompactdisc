@@ -3,7 +3,8 @@ libkcompactdisc (4:17.08.3-0r1) UNRELEASED; urgency=medium
   [ Maximiliano Curia ]
   * Update upstream metadata
   * Update build-deps and deps with the info from cmake
-  * New upstream release (17.08.1).
+  * New upstream release (17.08.1):
+    - switches to Qt5/KF5 (Closes: #875014)
   * Bump Standards-Version to 4.1.0.
 
   [ Pino Toscano ]
