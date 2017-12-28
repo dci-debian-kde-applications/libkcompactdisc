@@ -3,6 +3,8 @@ libkcompactdisc (4:17.08.3-2) UNRELEASED; urgency=medium
   [ Pino Toscano ]
   * Add a symbols file for libkf5compactdisc5.
   * Bump Standards-Version to 4.1.3, no changes required.
+  * Adjust l10npkgs_firstversion_ok to the version where kde-l10n will
+    drop translations.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 25 Dec 2017 17:16:10 +0100
 
